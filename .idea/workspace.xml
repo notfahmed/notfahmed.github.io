@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b3adbf3-f4b1-4818-8f33-73d8f5ef7e29" name="Default Changelist" comment="Deleted index.html">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    <list default="true" id="8b3adbf3-f4b1-4818-8f33-73d8f5ef7e29" name="Default Changelist" comment="revamped entire website">
+      <change afterPath="$PROJECT_DIR$/About.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1611357345488" duration="86000" />
       <workItem from="1611357445902" duration="86000" />
       <workItem from="1655593570584" duration="7522000" />
-      <workItem from="1655657569466" duration="14014000" />
+      <workItem from="1655657569466" duration="17009000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted index.html">
       <created>1655594037601</created>
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655594037601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="revamped entire website">
+      <created>1655679617324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655679617324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleted index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted index.html" />
+    <MESSAGE value="revamped entire website" />
+    <option name="LAST_COMMIT_MESSAGE" value="revamped entire website" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

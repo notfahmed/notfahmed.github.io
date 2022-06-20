@@ -10,22 +10,22 @@
     <div class="tabs">
         <div class="buttons">
             <button id="btn1" onclick="openHome()">
-                <i class="fa fa-home"></i>
+                <i class="fa fa-home" id="icon1"></i>
                 Home
             </button>
 
             <button id="btn2" onclick="openAbout()">
-                <i class="fa fa-user"></i>
+                <i class="fa fa-user" id="icon2"></i>
                 About Me
             </button>
 
             <button id="btn3" onclick="openProject()">
-                <i class="fa fa-lightbulb-o"></i>
+                <i class="fa fa-lightbulb-o" id="icon3"></i>
                 My Projects
             </button>
 
             <button id="btn4" onclick="openHobby()">
-                <i class="fa fa-gamepad"></i>
+                <i class="fa fa-gamepad" id="icon4"></i>
                 My Hobbies
             </button>
         </div>
@@ -59,16 +59,14 @@
                     <p>
                         Hello! My name is Fawaz Ahmed.
                         I am a graduate from the University of Texas at Dallas with a
-                        Bachelors Degree in Computer Science
-                        I have worked at several companies throughout my time at UTD.
-                        <br>
-                        <br>
-                        You can read more about them, what I did, and my roles in the companies below.
+                        Bachelors Degree in Computer Science.
+                        I have worked at several companies throughout my time at UTD and in different roles.
+                        If you want to learn more, you can read about the specifics on my resume below.
+                        If you have any more questions feel free to shoot me an email as
+                        I will respond to that the fastest.
                     </p>
-
-                </div>
-                <div class="content-right">
-                    <img src="pfp.jpg" alt="Avatar">
+                    <br>
+                    <embed src="Resume.pdf#zoom=90" width="800px" height="1000px"/>
                 </div>
             </div>
             <div id ="content3" class="content">
@@ -156,6 +154,10 @@
         var btn2 = document.getElementById("btn2");
         var btn3 = document.getElementById("btn3");
         var btn4 = document.getElementById("btn4");
+        var icon1 = document.getElementById("icon1")
+        var icon2 = document.getElementById("icon2")
+        var icon3 = document.getElementById("icon3")
+        var icon4 = document.getElementById("icon4")
 
         function openHome(){
             content1.style.display = "flex";
@@ -170,10 +172,11 @@
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(100%)";
             content4.style.transform = "translateX(100%)";
-            btn1.style.color = "#bb00ff"
-            btn2.style.color = "#000"
-            btn3.style.color = "#000"
-            btn4.style.color = "#000"
+            btn1.style.color = icon1.style.color = "#bb00ff"
+            btn2.style.color = icon2.style.color = "#fff"
+            btn3.style.color = icon3.style.color = "#fff"
+            btn4.style.color = icon4.style.color = "#fff"
+
         }
         function openAbout(){
             content2.style.display = "flex";
@@ -188,10 +191,10 @@
             content2.style.transform = "translateX(0)";
             content3.style.transform = "translateX(100%)";
             content4.style.transform = "translateX(100%)";
-            btn1.style.color = "#000"
-            btn2.style.color = "#bb00ff"
-            btn3.style.color = "#000"
-            btn4.style.color = "#000"
+            btn1.style.color = icon1.style.color = "#fff"
+            btn2.style.color = icon2.style.color = "#bb00ff"
+            btn3.style.color = icon3.style.color = "#fff"
+            btn4.style.color = icon4.style.color = "#fff"
         }
         function openProject(){
             content3.style.display = "flex";
@@ -206,10 +209,10 @@
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(0)";
             content4.style.transform = "translateX(100%)";
-            btn1.style.color = "#000"
-            btn2.style.color = "#000"
-            btn3.style.color = "#bb00ff"
-            btn4.style.color = "#000"
+            btn1.style.color = icon1.style.color = "#fff"
+            btn2.style.color = icon2.style.color = "#fff"
+            btn3.style.color = icon3.style.color = "#bb00ff"
+            btn4.style.color = icon4.style.color = "#fff"
         }
         function openHobby(){
             content4.style.display = "flex";
@@ -224,10 +227,10 @@
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(100%)";
             content4.style.transform = "translateX(0)";
-            btn1.style.color = "#000"
-            btn2.style.color = "#000"
-            btn3.style.color = "#000"
-            btn4.style.color = "#bb00ff"
+            btn1.style.color = icon1.style.color = "#fff"
+            btn2.style.color = icon2.style.color = "#fff"
+            btn3.style.color = icon3.style.color = "#fff"
+            btn4.style.color = icon4.style.color = "#bb00ff"
         }
     </script>
 
