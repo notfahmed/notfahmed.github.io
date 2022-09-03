@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "dependencies": {
+    "@angular/core": "^14.2.0",
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.8"
+  },
+  "description": "Packages for personal website",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^18.7.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notfahmed/notfahmed.github.io.git"
+  },
+  "author": "Fawaz Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notfahmed/notfahmed.github.io/issues"
+  },
+  "homepage": "https://github.com/notfahmed/notfahmed.github.io#readme"
+}
